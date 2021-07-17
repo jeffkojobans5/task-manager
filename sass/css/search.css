@@ -1,0 +1,56 @@
+.container {
+  max-width: 980px;
+}
+
+.box {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 250px;
+  height: 120px;
+  padding: 1rem;
+}
+
+.box h1 {
+  color: orange;
+}
+
+.box p {
+  color: #2a4d69;
+}
+
+.main {
+  margin-bottom: 35px;
+}
+
+.add-table {
+  background-color: orange;
+  height: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+thead {
+  background-color: #2a4d69 !important;
+  color: white;
+}
+
+tbody {
+  background-color: #e7eff6;
+}
+
+table {
+  border-radius: 100px;
+  margin-top: 40px;
+}
+
+input[type='submit'] {
+  background-color: #2a4d69;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+input {
+  border: none;
+}

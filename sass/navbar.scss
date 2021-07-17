@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import 'imports/_variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat" , ;
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+    background-color: $color1 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0;   
+
+    h1 {
+        margin: 1.5rem 0;
+        text-align: center;
+        color: white !important;
+    }
+
+    ul {
+        width: 100%;
+        li {
+            line-height: 4rem;
+            border-left: 10px solid transparent;
+            list-style-type: none;
+            i {
+                margin-left: 1rem;
+                color: #e7eff6 ;
+            }
+
+            a {
+                color: $color3;
+                font-size: 1.2rem;
+                margin-left: 1rem;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color:white; 
+    // padding-top: 97px;
+
+     h2 {
+     margin: 1.8rem 0rem;
+     color: $color1;
+    }
+}
+
+.active {
+    border-color: $color4 !important;
+    background-color: $color6;
+}
+
+.active a , .active i{
+    color: $color1 !important;
+}
+
+.left ul li:hover i , .left ul li:hover , .left ul li:hover a {
+    color: $color1 !important;
+    background-color: $color6;
+    border-color: $color3 !important;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0rem 1rem;
+}
+
+.container {
+    // background-color: green;
+    max-width: 980px;
+}
+
+
+@media only screen and ( max-width: 767px){
+    .left {
+        max-width: 100%;
+        position: relative;
+    }
+    .right {
+        position: relative; 
+    }
+}

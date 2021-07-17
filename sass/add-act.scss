@@ -1,0 +1,56 @@
+@import 'imports/_variables.scss';
+
+.container {
+    max-width: 980px;
+}
+
+.box {
+    background-color: $color9;
+    border-radius: 5px;
+    width: 250px;
+    height: 120px;
+    padding: 1rem;
+
+    h1 {
+        color: $color6;
+    }
+    p {
+        color: $color1;
+    }
+}
+
+.main {
+    margin-bottom: 35px;
+}
+.add-table {
+    height: 100%;
+    max-width: 100%;
+    padding: $padding;
+    border-radius: $border-radius;
+
+    thead {
+        background-color: $color1;
+        color: white;
+    }
+    tbody {
+        background-color: $color4;
+    }
+}
+
+
+table {
+    border-radius: 100px;
+}
+
+td i {
+    padding-left: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.fa-hourglass-half {
+    color: $color6;
+}
+
+.fa-check-circle {
+    color: green;
+}

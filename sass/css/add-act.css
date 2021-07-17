@@ -1,0 +1,57 @@
+.container {
+  max-width: 980px;
+}
+
+.box {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  width: 250px;
+  height: 120px;
+  padding: 1rem;
+}
+
+.box h1 {
+  color: orange;
+}
+
+.box p {
+  color: #2a4d69;
+}
+
+.main {
+  margin-bottom: 35px;
+}
+
+.add-table {
+  height: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.add-table thead {
+  background-color: #2a4d69;
+  color: white;
+}
+
+.add-table tbody {
+  background-color: #e7eff6;
+}
+
+table {
+  border-radius: 100px;
+}
+
+td i {
+  padding-left: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.fa-hourglass-half {
+  color: orange;
+}
+
+.fa-check-circle {
+  color: green;
+}

@@ -1,0 +1,61 @@
+@import 'imports/_variables.scss';
+
+.container {
+    // background-color: green;
+    max-width: 980px;
+}
+
+
+.box {
+    background-color: $color8;
+    border-radius: 5px;
+    width: 250px;
+    height: 120px;
+    padding: 1rem;
+
+    h1 {
+        color: $color6;
+    }
+    p {
+        color: $color1;
+    }
+}
+
+.main {
+    margin-bottom: 35px;
+}
+
+.add-table {
+    background-color: $color6;
+    height: 100%;
+    max-width: 100%;
+    padding: $padding;
+    border-radius: $border-radius;
+    // margin-top: 70px;
+}
+
+thead {
+        background-color: $color1 !important;
+        color: white;
+}
+
+tbody {
+        background-color: $color4;
+}
+
+
+table {
+    border-radius: 100px;
+    margin-top: 40px;
+}
+
+input[type='submit'] {
+    background-color: $color1;
+    color: $color7;
+    border: none ;
+    text-transform: uppercase;
+}
+
+input {
+    border: none;
+}

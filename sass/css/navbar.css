@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  background-color: #2a4d69;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.left h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+  color: white !important;
+}
+
+.left ul {
+  width: 100%;
+}
+
+.left ul li {
+  line-height: 4rem;
+  border-left: 10px solid transparent;
+  list-style-type: none;
+}
+
+.left ul li i {
+  margin-left: 1rem;
+  color: #e7eff6;
+}
+
+.left ul li a {
+  color: #adcbe3;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.left ul li a:hover {
+  text-decoration: none;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.right h2 {
+  margin: 1.8rem 0rem;
+  color: #2a4d69;
+}
+
+.active {
+  border-color: #e7eff6 !important;
+  background-color: orange;
+}
+
+.active a, .active i {
+  color: #2a4d69 !important;
+}
+
+.left ul li:hover i, .left ul li:hover, .left ul li:hover a {
+  color: #2a4d69 !important;
+  background-color: orange;
+  border-color: #adcbe3 !important;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0rem 1rem;
+}
+
+.container {
+  max-width: 980px;
+}
+
+@media only screen and (max-width: 767px) {
+  .left {
+    max-width: 100%;
+    position: relative;
+  }
+  .right {
+    position: relative;
+  }
+}
